@@ -103,7 +103,7 @@ blog = '/blog/:sections[1]/:slug/'
 
 		StableText  = "Download: Stable"
 		StableLink = "https://teamcity.vvvv.org/guestAuth/app/rest/builds/id:36032/artifacts/content/vvvv_gamma_2021.4.10_setup.exe"
-		StableVersion = "Version: 2021.4.10"
+		StableVersion = "Version: 4.10"
 
 		PreviewText = "Download: Preview"
 		PreviewLink = "PreviewDownloads"

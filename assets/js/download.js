@@ -97,7 +97,7 @@ async function getLatestBuild(buildType)
 async function fetchData(link)
 {
     var previews = []
-    var versionPattern = /(.*?)\+/;
+    var versionPattern = /\d*\.(.*?)\+/;
 
     var builds = await fetch(link)
     .then(response => response.text())
